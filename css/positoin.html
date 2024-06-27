@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posições</title>
+</head>
+<body>
+
+    <!------------------------------------------------->
+    <h2>Relative 1</h2>
+    <div class="relative">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ]
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        It has survived not only five centuries, but also the leap into electronic typesetting, 
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset 
+        sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
+        like Aldus PageMaker including versions of Lorem Ipsum
+    </div>
+
+    <!------------------------------------------------->
+    <h2>Relative 2</h2>
+
+    <div style="width: 150px; border: 3px solid rgb(181, 0, 253)"; >
+        <dib class="relative_dois"> 
+            Banana
+        </dib>
+    </div>
+
+    <!------------------------------------------------->
+    <h2 style=" position: fixed; bottom:0;">Fixed</h2>
+    <div class="fixed">
+        Td vez q fizer uma rolagem, ele vai manter um aposição fixa
+
+    </div>
+    <!------------------------------------------------->
+
+    <h2>Position:ABS</h2>
+
+    <div class="relative_absolute">
+        <div class="absolute"> Esaa div é ABS</div>
+    </div>
+
+
+    <style>
+        .relative{
+            position: relative;
+            left: 50px;
+            border: 3px solid red;
+        }
+        .relative_dois{
+            position: relative;
+            left: 30px;
+        }
+
+        .fixed{
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            border:3px solid rgb(0, 255, 21) ;
+        }
+
+        .relative_absolute{
+            position: relative;
+            height: 200px;
+            width: 400px;
+            border:3px solid rgb(0, 0, 0) ;
+
+        }
+        .absolute{
+            position: absolute;
+            top: 80px;
+            right: 0;
+            width: 200px;
+            border:3px dashed rgb(0, 153, 255) ;
+
+        }
+        
+    </style>
+    
+</body>
+</html>
