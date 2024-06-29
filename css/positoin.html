@@ -6,7 +6,7 @@
     <title>Posições</title>
 </head>
 <body>
-
+    
     <!------------------------------------------------->
     <h2>Relative 1</h2>
     <div class="relative">
@@ -28,6 +28,8 @@
         </dib>
     </div>
 
+    <div class="sticky"> NAVbar </div>
+
     <!------------------------------------------------->
     <h2 style=" position: fixed; bottom:0;">Fixed</h2>
     <div class="fixed">
@@ -42,8 +44,38 @@
         <div class="absolute"> Esaa div é ABS</div>
     </div>
 
+    
+
+    <!----------------------------SCROLL----------------------------->
+    <h2>Position:ABS</h2>
+
+    <div class="relative_absolute">
+        <div class="absolute"> Esaa div é ABS</div>
+    </div>
+    <h2>Position:ABS</h2>
+
+    <div class="relative_absolute">
+        <div class="absolute"> Esaa div é ABS</div>
+    </div>
+    <h2>Position:ABS</h2>
+
+    <div class="relative_absolute">
+        <div class="absolute"> Esaa div é ABS</div>
+    </div>
+    <!------------------------------------------------------------->
+
+    
+
 
     <style>
+        .sticky{
+            top: 0;
+            position: sticky;
+            background-color: blueviolet;
+            padding: 30px;
+            font-size: 30px;
+        }
+
         .relative{
             position: relative;
             left: 50px;

@@ -1,0 +1,13 @@
+.paragrafo{
+    color: blueviolet;
+    font-family: Verdana;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.paragrafo-titulo{
+    color: darkgreen;
+    font-family: Verdana;
+    font-size: 50px;
+    text-transform: uppercase;
+}
